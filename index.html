@@ -124,7 +124,7 @@
     <ul id="link-list"></ul>
 
     <script>
-        fetch('links.txt')
+        fetch('LIST.TXT')
             .then(response => response.text())
             .then(data => {
                 const links = data.split('\n').filter(link => link.trim() !== '');
