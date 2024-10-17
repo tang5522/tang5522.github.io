@@ -1,0 +1,84 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background-color: #f9f7f5;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    color: #ff6f61; /* 暖色调标题 */
+}
+
+a {
+    text-decoration: none;
+    color: #ff6f61; /* 暖色链接 */
+}
+
+a:hover {
+    color: #d45d52; /* 悬停暖色 */
+}
+
+blockquote {
+    padding: 0 20px;
+    margin: 20px 0;
+    border-left: 4px solid #ff6f61; /* 暖色分隔 */
+    background-color: #fff3e0; /* 背景暖色 */
+    color: #484850;
+}
+
+.global-width {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: #ffffff; /* 背景白色 */
+}
+
+.header .menu li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.current-menu-item, .header .menu li:hover {
+    color: #d45d52; /* 当前菜单或悬停颜色 */
+}
+
+.footer {
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: #f1e6e6; /* 脚部背景 */
+    text-align: center;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .header .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
